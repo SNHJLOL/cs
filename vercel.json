@@ -1,4 +1,8 @@
 {
-  "buildCommand": "npm install -g hexo-cli && npm install && node node_modules/hexo/bin/hexo clean && node node_modules/hexo/bin/hexo generate",
-  "outputDirectory": "public"
+  "buildCommand": "npm install -g hexo-cli && npm install hexo-renderer-pug hexo-renderer-stylus --save && npm install && hexo clean && hexo generate",
+  "outputDirectory": "public",
+  "installCommand": "npm install --force",
+  "environment": {
+    "NODE_OPTIONS": "--openssl-legacy-provider"
+  }
 }
