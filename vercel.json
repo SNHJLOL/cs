@@ -1,4 +1,0 @@
-{
-  "buildCommand": "npm install -g hexo-cli && npm install && node node_modules/hexo/bin/hexo clean && node node_modules/hexo/bin/hexo generate",
-  "outputDirectory": "public"
-}
